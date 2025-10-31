@@ -1,0 +1,52 @@
+# SO / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+*.code-workspace
+
+# C/C++ build outputs
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.dSYM/
+
+# Arduino / PlatformIO
+*.pio/
+*.build/
+*cmake-build*/
+*.elf
+*.hex
+*.bin
+
+# KiCad: ignorar caches/temporários/backups e arquivos locais de usuário
+hardware/*-bak
+hardware/*-backups/
+hardware/*_autosave*
+hardware/*.kicad_prl
+hardware/fp-info-cache
+hardware/*-cache.lib
+hardware/*.tmp
+hardware/*-save.pro
+
+# Gerbers
+hardware/Gerber/**
+
+# Gerbers (opcional): comite apenas em releases
+# hardware/Gerber/**
+
+# Arquivos compactados/arquivos grandes diversos (opcional)
+*.zip
+*.7z
+*.rar
+
+# Legado
+legacy/**
+
+# Referências
+refs/**
