@@ -1,0 +1,8 @@
+# Modelos e exportações 3D / CAD
+hardware/**/*.step filter=lfs diff=lfs merge=lfs -text
+hardware/**/*.stp  filter=lfs diff=lfs merge=lfs -text
+hardware/**/*.wrl  filter=lfs diff=lfs merge=lfs -text
+hardware/**/*.iges filter=lfs diff=lfs merge=lfs -text
+hardware/**/*.igs  filter=lfs diff=lfs merge=lfs -text
+hardware/**/*.emn  filter=lfs diff=lfs merge=lfs -text
+hardware/**/*.emp  filter=lfs diff=lfs merge=lfs -text
